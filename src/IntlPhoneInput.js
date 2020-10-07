@@ -215,6 +215,7 @@ class IntlPhoneInput extends React.Component {
                       autoFocus
                       autoCompleteType={"off"}
                       autoCorrect={false}
+                      returnKeyType="done"
                       onChangeText={this.filterCountries}
                       placeholder={filterText || "Enter country name"}
                       style={[styles.filterInputStyle, filterInputStyle]}
